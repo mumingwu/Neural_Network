@@ -1,0 +1,3 @@
+cmake .. -DEIGEN3_INCLUDE_DIR=D:\eigen -DN3L_INCLUDE_DIR=D:\LibN3L-2.0
+
+-l -train C:\corpus_data\car.train.utf8 -dev C:\corpus_data\car.dev.utf8 -test C:\corpus_data\car.test.utf8 -option C:\corpus_data\option.debug
